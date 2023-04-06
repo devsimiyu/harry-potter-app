@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/nav_graph"
+            app:startDestination="@id/homeFragment">
+    <fragment android:id="@+id/homeFragment" android:name="com.devsimiyu.harrypotter.HomeFragment"
+              android:label="fragment_home" tools:layout="@layout/fragment_home">
+    </fragment>
+    <fragment android:id="@+id/houseFragment" android:name="com.devsimiyu.harrypotter.HouseFragment"
+              android:label="fragment_house" tools:layout="@layout/fragment_house"/>
+    <fragment android:id="@+id/spellFragment" android:name="com.devsimiyu.harrypotter.SpellFragment"
+              android:label="fragment_spell" tools:layout="@layout/fragment_spell"/>
+    <fragment android:id="@+id/detailFragment" android:name="com.devsimiyu.harrypotter.DetailFragment"
+              android:label="fragment_detail" tools:layout="@layout/fragment_detail"/>
+    <fragment android:id="@+id/searchFragment" android:name="com.devsimiyu.harrypotter.SearchFragment"
+              android:label="fragment_search" tools:layout="@layout/fragment_search"/>
+</navigation>

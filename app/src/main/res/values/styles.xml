@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTopBarButton">
+        <item name="tint">@color/content_title_color</item>
+    </style>
+
+    <style name="BottomNavigationView.itemTextAppearanceActive" parent="TextAppearance.AppCompat">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="BottomNavigationView.itemTextAppearanceInActive" parent="TextAppearance.AppCompat">
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>
