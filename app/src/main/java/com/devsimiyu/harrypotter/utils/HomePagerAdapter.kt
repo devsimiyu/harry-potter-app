@@ -1,8 +1,10 @@
-package com.devsimiyu.harrypotter
+package com.devsimiyu.harrypotter.utils
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
+import com.devsimiyu.harrypotter.StaffFragment
+import com.devsimiyu.harrypotter.StudentFragment
 
 class HomePagerAdapter(fragmentActivity: FragmentActivity): FragmentStateAdapter(fragmentActivity) {
 
